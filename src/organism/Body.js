@@ -1,5 +1,5 @@
 import React from "react";
-import FormRatingNum from "../components/FormRatingNum";
+// import FormRatingNum from "../components/FormRatingNum";
 import FormShort from "../components/FormShort";
 
 const Body = () => {
@@ -16,8 +16,8 @@ const Body = () => {
             </div>
 
             {/* Forms */}
-            {/* <FormShort /> */}
-            <FormRatingNum />
+            <FormShort />
+            {/* <FormRatingNum /> */}
 
             <div class="absolute bottom-0 right-0 left-0 p-4 inline-block mr-2 mt-2">
                 <button
