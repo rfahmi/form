@@ -6,9 +6,7 @@ const Body = () => {
     return (
         <div className="relative md:absolute md:top-0 md:right-0 md:w-2/5 flex justify-center items-start flex-col h-screen p-4">
             <div className="absolute flex justify-between p-4 top-0 left-0 right-0">
-                <div className="text-6xl text-gray-200 font-bold">
-                    #1<span className="text-xl font-normal">/10</span>
-                </div>
+                <div className="text-6xl text-gray-200 font-bold">#1</div>
                 <div className="flex flex-col justify-center text-sm text-gray-300 text-right">
                     <span>Lorem Ipsum Dolor sit Amet</span>
                     <span className="font-bold">Fahmi Rizalul</span>
@@ -19,10 +17,19 @@ const Body = () => {
             <FormShort />
             {/* <FormRatingNum /> */}
 
-            <div class="absolute bottom-0 right-0 left-0 p-4 inline-block mr-2 mt-2">
+            <div class="flex justify-between items-center absolute bottom-0 right-0 left-0 p-4 inline-block mr-2 mt-2">
+                <div class="w-full">
+                    <div class="rounded-full bg-gray-200 h-2 mr-8">
+                        <div
+                            className="rounded-full bg-primary text-xs leading-none h-2 text-center text-white"
+                            style={{ width: "45%" }}
+                        />
+                    </div>
+                    <span className="text-xs text-gray-600">1 dari 10</span>
+                </div>
                 <button
                     type="button"
-                    class="flex items-center justify-center focus:outline-none text-white text-md font-bold py-2 px-6 rounded-full bg-gradient-to-r from-blue-400 to-blue-600 transform hover:scale-110"
+                    class="flex items-center justify-center focus:outline-none text-white text-md font-bold py-2 px-6 rounded-full bg-primary transform hover:scale-110"
                 >
                     Selanjutnya
                     <svg
