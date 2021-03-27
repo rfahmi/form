@@ -4,8 +4,8 @@ import FormShort from "../components/FormShort";
 
 const Body = () => {
     return (
-        <div className="relative md:absolute md:top-0 md:right-0 md:w-2/5 flex justify-center items-start flex-col h-screen p-4">
-            <div className="absolute flex justify-between p-4 top-0 left-0 right-0">
+        <div className="relative md:absolute md:top-0 md:right-0 md:w-1/2 flex justify-center items-start flex-col h-screen p-4">
+            <div className="absolute flex justify-between w-full p-4 top-0 left-0 right-0">
                 <div className="text-6xl text-gray-200 font-bold">#1</div>
                 <div className="flex flex-col justify-center text-sm text-gray-300 text-right">
                     <span>Lorem Ipsum Dolor sit Amet</span>
@@ -17,7 +17,7 @@ const Body = () => {
             <FormShort />
             {/* <FormRatingNum /> */}
 
-            <div class="flex justify-between items-center absolute bottom-0 right-0 left-0 p-4 inline-block mr-2 mt-2">
+            <div class="flex justify-between items-center w-full absolute bottom-0 right-0 left-0 p-4 inline-block mr-2 mt-2">
                 <div class="w-full">
                     <div class="rounded-full bg-gray-200 h-2 mr-8">
                         <div
